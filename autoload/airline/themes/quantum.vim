@@ -5,9 +5,9 @@ function! airline#themes#quantum#refresh()
                 \ 'red': airline#themes#get_highlight('Identifier'),
                 \ }
 
-    let s:N1 = airline#themes#get_highlight2(['CursorLine', 'bg'], ['Directory', 'fg'], 'bold')
-    let s:N2 = airline#themes#get_highlight('Pmenu')
-    let s:N3 = airline#themes#get_highlight('TabLine')
+    let s:N1 = airline#themes#get_highlight2(['Normal', 'bg'], ['Directory', 'fg'], 'bold')
+    let s:N2 = airline#themes#get_highlight2(['Pmenu', 'fg'], ['Normal', 'bg'])
+    let s:N3 = airline#themes#get_highlight2(['Tabline', 'fg'], ['Normal', 'bg'])
     let g:airline#themes#quantum#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 
     let group = airline#themes#get_highlight('Type')
