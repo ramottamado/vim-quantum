@@ -84,9 +84,9 @@ call s:HL('TabLineFill',                    s:gray4,    s:gray2,    'none')
 call s:HL('TabLineSel',                     s:yellow,   s:gray3,    'none')
 call s:HL('Title',                          s:green,    '',         'none')
 call s:HL('VertSplit',                      s:gray4,    s:gray1,    'none')
-call s:HL('Visual',                         s:gray5,    s:gray3,    '')
+call s:HL('Visual',                         '',         s:gray3,    '')
 call s:HL('WarningMsg',                     s:red,      '',         '')
-call s:HL('WildMenu',                       s:gray2,    s:cyan,     '')
+call s:HL('WildMenu',                       s:gray1,    s:blue,     '')
 
 " Standard Syntax
 call s:HL('Comment',                        s:gray4,    '',         'italic')
